@@ -1,0 +1,29 @@
+Live Demo
+#include <iostream>
+ 
+using namespace std;
+ 
+int main () {
+   // declare simple variables
+   int    i;
+   double d;
+ 
+   // declare reference variables
+   int&    r = i;
+   double& s = d;
+   
+   i = 5;
+   cout << "Value of i : " << i << endl;
+   cout << "Value of i reference : " << r  << endl;
+ 
+   d = 11.7;
+
+   return 0;
+}
+When the above code is compiled together and executed, it produces the following result −
+
+Value of i : 5
+Value of i reference : 5
+Value of d : 11.7
+Value of d reference : 11.7
+References a
