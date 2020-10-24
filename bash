@@ -17,7 +17,9 @@ int main () {
    cout << "Value of i reference : " << r  << endl;
  
    d = 11.7;
-
+   cout << "Value of d : " << d << endl;
+   cout << "Value of d reference : " << s  << endl;
+   
    return 0;
 }
 When the above code is compiled together and executed, it produces the following result −
